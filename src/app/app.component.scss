@@ -1,0 +1,111 @@
+/* General Styles */
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+
+/* Container Styles */
+.container {
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Task Input and Button Container */
+.enter-task-container,
+.tasks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Input Field */
+.task-input {
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+/* Button Styles */
+.btn {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px 30px;
+    margin: 15px;
+    border-radius: 4px;
+    border: none;
+    color: ghostwhite;
+    transition: opacity 0.3s ease;
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Specific Button Colors */
+.add {
+    background-color: #4CAF50;
+}
+
+.clear {
+    background-color: #f44336;
+}
+
+.complete,
+.remove {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+/* Complete Task Button */
+.complete {
+    background-color: #4CAF50;
+}
+
+/* Remove Task Button */
+.remove {
+    background-color: #f44336;
+}
+
+/* Task List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* Task Text Styling */
+li span {
+    margin-right: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Result Text */
+#result-text {
+    font-weight: bold;
+    font-size: 20px;
+}
